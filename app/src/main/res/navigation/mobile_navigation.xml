@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.news.ui.BBC.HomeFragment"
+        android:label="@string/bbc"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.news.ui.gallery.GalleryFragment"
+        android:label="@string/republic_bharat"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.news.ui.slideshow.SlideshowFragment"
+        android:label="@string/ani"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/TVFragment"
+        android:name="com.example.news.Fragment.TVFragment"
+        android:label="fragment_t_v"
+        tools:layout="@layout/fragment_t_v" />
+    <fragment
+        android:id="@+id/ZEE_NEWSFragment"
+        android:name="com.example.news.Fragment.ZEE_NEWSFragment"
+        android:label="fragment_z_e_e__n_e_w_s"
+        tools:layout="@layout/fragment_z_e_e__n_e_w_s" />
+</navigation>

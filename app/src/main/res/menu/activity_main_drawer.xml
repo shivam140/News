@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/bbc"
+            android:menuCategory="secondary"
+            android:title="@string/bbc" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/republic"
+            android:menuCategory="secondary"
+            android:title="@string/republic_bharat" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ani"
+            android:menuCategory="secondary"
+            android:title="@string/ani" />
+        <item
+            android:id="@+id/ZEE_NEWSFragment"
+            android:icon="@drawable/zee"
+            android:menuCategory="secondary"
+            android:title="@string/zee_news" />
+        <item
+            android:id="@+id/TVFragment"
+            android:icon="@drawable/tv"
+            android:menuCategory="secondary"
+            android:title="@string/TV9" />
+
+    </group>
+
+    <item android:title="UP COMMING"
+        android:menuCategory="secondary"
+        >
+        <menu>
+
+            <item
+                android:id="@+id/bnc"
+                android:icon="@drawable/bnc"
+                android:menuCategory="secondary"
+                android:title="@string/bnc_news" />
+
+        </menu>
+
+
+
+    </item>
+
+
+
+
+</menu>
